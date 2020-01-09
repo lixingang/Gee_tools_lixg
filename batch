@@ -1,0 +1,12 @@
+/*
+批量下载imageCollection,
+https://github.com/fitoprincipe/geetools-code-editor/wiki/Batch
+*/
+
+var batch = require('users/fitoprincipe/geetools:batch')
+batch.Download.ImageCollection.toDrive(imageCollection, 'Maize', 
+                {scale: 10, 
+                 region: roiChina,
+                 type: 'float'})
+                 
+                 
